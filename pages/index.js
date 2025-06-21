@@ -152,13 +152,13 @@ export default function Home() {
     careDuelLink: {
       display: "inline-block",
       border: "2px solid #fff",
-      color: careDuelHover ? "#0288D1" : "#fff",
+      color:"#E91E63",
       backgroundColor: careDuelHover ? "#fff" : "transparent",
       padding: "0.75rem 1.5rem",
       borderRadius: "1.25rem",
       fontWeight: "600",
       fontSize: "1rem",
-      textDecoration: "none",
+      textDecoration: careDuelHover ? "underline" : "none",
       transition: "all 0.3s ease",
     },
     footer: {
