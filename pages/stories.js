@@ -46,7 +46,7 @@ export default function Stories() {
   return (
     <main style={{ padding: "2rem", fontFamily: "Lora, serif" }}>
       <h1>🎟️ Raffle Widget</h1>
-      <p>Check your raffle status and enter if you haven't!</p>
+      <p>Check your raffle status and enter if you haven&apos;t!</p>
 
       <p>
         {loading
