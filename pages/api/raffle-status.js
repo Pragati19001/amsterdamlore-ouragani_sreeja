@@ -9,7 +9,6 @@ export default function handler(req, res) {
 
   // Mock data — in real app, fetch from DB
   const mockData = {
-    joined: true,
     tickets: 3,
   };
 
