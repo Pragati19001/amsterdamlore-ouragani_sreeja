@@ -12,5 +12,5 @@ export default function handler(req, res) {
   }
 
   // Mock adding user to raffle (no DB, so just return success)
-  res.status(200).json({ success: true, message: "User entered in raffle!" });
+  res.status(200).json({ success: true, tickets: newCount });
 }
